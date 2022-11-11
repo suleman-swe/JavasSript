@@ -1,32 +1,32 @@
-/*a=21;
+a=21;
 if(a<18)
 {
     document.write("Welcome, You are allowed. Enjoy Your");
 }else{
     document.write("You's are is not matching. Your are not allowed!");
-}*/
+}
 
 //IF-ELSE
 
-/*x = 21;
+x = 21;
 if (x <= 18) {
     document.write("You are not 18");
 } else {
     document.write("You are : " + x);
-}*/
+}
 
 //TERNARY OPERATOR
 
-/*var a = "3";
+var a = "3";
 var b;
 
-//(a = 3) ? b = "Khan" : b = "Not Available";       //OR
-//b = (a == 3) ? "Khan" : "Not Available";
-document.write(b);*/
+(a = 3) ? b = "Khan" : b = "Not Available";       //OR
+b = (a == 3) ? "Khan" : "Not Available";
+document.write(b);
 
 //SWITCH CASE
 
-/*var a = 6;   //Ex(1)
+var a = 6;   //Ex(1)
 switch(a){
     case 1 :
         document.write("Number is "+a);
@@ -40,9 +40,9 @@ switch(a){
     
     default:
         document.write('"'+a+'"'+" number is not in the list");
-}*/
+}
 
-/*var age = 21;   //Ex(2)
+var age = 21;   //Ex(2)
 switch(true){
     case(age<=17):
         document.write("Younger! Sorry this scholarship is not for you.");
@@ -53,16 +53,19 @@ switch(true){
 
     default:
         document.write("Sorry elder boy. You are not eligible for scholarship. Go get a job!");
-}*/
+}
+
+//PROMPT BOX
 
 var a = prompt("First Number");
-//var b = prompt("Second Number");
-//console.log("Fisrt user input is: " + a);
-//console.log("Fisrt user input is: " + b);
-//var c = a+b;
-console.log(a);
+var b = prompt("Second Number");
+console.log("Fisrt user input is: " + a);
+console.log("Fisrt user input is: " + b);
+var c = a+b;
+console.log(c);
 console.log(typeof a);
+console.log(typeof b);
 
-var b = Number(a);
+var b = Number(a);  //changing Data type String to Number
 console.log(b);
 console.log(typeof b);
