@@ -69,3 +69,13 @@ console.log(typeof b);
 var b = Number(a);  //changing Data type String to Number
 console.log(b);
 console.log(typeof b);
+
+//FUNCTIONS
+
+function greeting(){
+    console.log("Hello Coder!");
+}
+
+var name = prompt("Your Name?");
+greeting();
+console.log(name);
