@@ -79,3 +79,6 @@ function greeting(){
 var name = prompt("Your Name?");
 greeting();
 console.log(name);
+
+//FUNCTIONS with Parameters
+
