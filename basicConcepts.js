@@ -82,3 +82,12 @@ console.log(name);
 
 //FUNCTIONS with Parameters
 
+function sum(a,b){
+    console.log(a+b);   
+}
+
+sum(10,34);
+
+sum(56,91);
+
+sum(77,64);
