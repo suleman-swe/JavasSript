@@ -82,11 +82,13 @@ console.log(name);
 
 //FUNCTIONS with Parameters
 
-function sum(a,b){
+function sum(a=12 , b=34){
     console.log(a+b);   
 }
 
-sum(10,34);
+sum();
+
+sum(10,34);    //if you define values here, these values will be used as input
 
 sum(56,91);
 
