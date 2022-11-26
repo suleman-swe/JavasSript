@@ -96,6 +96,15 @@ sum(77,64);
 
 //FUNCTIONS with Parameters
 
+function fullname(fn="A" , ln="B"){           //Ex 1
+    var a = fn + " " + ln;
+    
+    return(a);
+}
+
+var a = fullname("Suleman" , "Khan");
+console.log(a);
+
 function sum(eng,math,urdu){        //Percetage calculater example
     var s = eng + math + urdu;
 
