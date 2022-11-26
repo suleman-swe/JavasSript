@@ -93,3 +93,20 @@ sum(10,34);    //if you define values here, these values will be used as input
 sum(56,91);
 
 sum(77,64);
+
+//FUNCTIONS with Parameters
+
+function sum(eng,math,urdu){        //Percetage calculater example
+    var s = eng + math + urdu;
+
+    return s;
+}
+function percentage(tt){
+    var per = tt/300 * 100;
+
+    return per;
+}
+var total = sum(68,88,85);
+var percentage = percentage(total);
+
+console.log(percentage);
