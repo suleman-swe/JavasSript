@@ -134,3 +134,24 @@ hello();
 
 console.log(a);     //Glocal Variables will work inside & outside of function
 console.log(b);     //Local Variables will NOT work outside of function, just will work for inside function code
+
+//JavaScript Basic Events
+
+Mouse Events
+1. Click (onclick)
+2. Double Click (ondbclick)
+3. Right Clickk (ncentextmenu)
+4. Mouse Hover (onmouseenter)
+5. Mouse Out (onmouseout)
+6. Mouse Down (onmousedown)
+7. Mouse Up (onmouseup)
+
+Keyboard Events
+1. Key Press (onkeypress)
+2. Key Up (onkeyup)
+
+Window Events
+1. Load (onload)
+2. Unload (onunload)
+3. Resize (onresize)
+4. Scroll (onscroll)
