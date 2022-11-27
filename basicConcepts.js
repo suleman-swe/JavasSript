@@ -147,10 +147,10 @@ Mouse Events
 7. Mouse Up (onmouseup)
 
 Keyboard Events
-1. Key Press (onkeypress)
+1. Key Press (onkeypress)     //Only works in body and form tag
 2. Key Up (onkeyup)
 
-Window Events
+Window Events     //All windows events will only work in body tag
 1. Load (onload)
 2. Unload (onunload)
 3. Resize (onresize)
