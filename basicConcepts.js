@@ -119,3 +119,18 @@ var total = sum(68,88,85);
 var percentage = percentage(total);
 
 console.log(percentage);
+
+//GLOBAL & LOCAL VARIABLES
+
+var a = 23;     //Global Variable (outside of function)
+
+function hello(){
+    console.log(a);
+
+    var b = 87;     //Local Variable (Inside of function)
+}
+
+hello();
+
+console.log(a);     //Glocal Variables will work inside & outside of function
+console.log(b);     //Local Variables will NOT work outside of function, just will work for inside function code
