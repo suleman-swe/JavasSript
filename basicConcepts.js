@@ -168,3 +168,8 @@ There are 5 loops in JavaScript:
 
 //While Loop
 
+var a = 1;
+while(a <= 1348394783740){
+    console.log("Basic Example of While Loop " + a);
+    a = a+1;
+}
