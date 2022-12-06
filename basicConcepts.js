@@ -155,3 +155,16 @@ Window Events     //All windows events will only work in body tag
 2. Unload (onunload)
 3. Resize (onresize)
 4. Scroll (onscroll)
+
+
+//LOOP
+
+There are 5 loops in JavaScript:
+1. While Loop
+2. Do/While Loop
+3. For Loop
+4. For/In Loop (uses with objects)
+5. forEach Loop
+
+//While Loop
+
