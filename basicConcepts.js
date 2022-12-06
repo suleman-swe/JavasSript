@@ -173,3 +173,11 @@ while(a <= 1348394783740){
     console.log("Basic Example of While Loop " + a);
     a = a+1;
 }
+
+//Do While Loop
+
+var a = 1;
+do{
+    console.log("Basic Example of Do While Loop " + a);
+    a = a+1;
+}while(a <= 10)
