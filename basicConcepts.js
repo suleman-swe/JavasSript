@@ -140,7 +140,7 @@ console.log(b);     //Local Variables will NOT work outside of function, just wi
 Mouse Events
 1. Click (onclick)
 2. Double Click (ondbclick)
-3. Right Click (ncentextmenu)
+3. Right Click (oncontextmenu)
 4. Mouse Hover (onmouseenter)
 5. Mouse Out (onmouseout)
 6. Mouse Down (onmousedown)
