@@ -183,7 +183,11 @@ do{
 }while(a <= 10)
 
 //For Loop
-    
+
+for (var a = 1; a <= 5; a++) {      //Ex 1
+    console.log("Basic Example of Do While Loop " + a);
+}
+
 for (var a = 1; a <= 10; a++){      //Table of 2 
     document.write("2 x " + a + "= " + 2 * a + "<br>");
 }
