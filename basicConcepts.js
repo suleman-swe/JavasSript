@@ -225,3 +225,13 @@ for (var a = 1; a <= 10; a++){      //Odd
         continue;
     }
 }
+
+//Nested Loop
+for (var a = 1; a <= 100; a = a + 10) {
+    console.log("First "+a);
+    for (var b = a; b < a + 10; b++) {
+        document.write(b+" ");
+        console.log("Second "+b);
+    }
+    document.write("<br>");
+}
