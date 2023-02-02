@@ -191,3 +191,21 @@ for (var a = 1; a <= 5; a++) {      //Ex 1
 for (var a = 1; a <= 10; a++){      //Table of 2 
     document.write("2 x " + a + "= " + 2 * a + "<br>");
 }
+
+//Break & Continue
+
+for (var a = 1; a <= 5; a++){       //break
+    if (a==4){
+        console.log(a);
+        break;
+    }
+    console.log(a);
+}
+
+for (var a = 1; a <= 5; a++){       //continue
+    if (a==4){
+        console.log(a);
+        continue;
+    }
+    console.log(a);
+}
