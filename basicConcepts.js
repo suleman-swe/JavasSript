@@ -209,3 +209,19 @@ for (var a = 1; a <= 5; a++){       //continue
     }
     console.log(a);
 }
+
+//How to fine Even & Odd numbers
+
+for (var a = 1; a <= 10; a++){      //Even
+    if (a % 2 == 0) {
+        console.log(a);
+        continue;
+    }
+}
+
+for (var a = 1; a <= 10; a++){      //Odd
+    if (a % 2 ==! 0) {
+        console.log(a);
+        continue;
+    }
+}
