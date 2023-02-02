@@ -181,3 +181,9 @@ do{
     console.log("Basic Example of Do While Loop " + a);
     a = a+1;
 }while(a <= 10)
+
+//For Loop
+    
+for (var a = 1; a <= 10; a++){      //Table of 2 
+    document.write("2 x " + a + "= " + 2 * a + "<br>");
+}
