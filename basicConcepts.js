@@ -227,6 +227,7 @@ for (var a = 1; a <= 10; a++){      //Odd
 }
 
 //Nested Loop
+
 for (var a = 1; a <= 100; a = a + 10) {
     console.log("First "+a);
     for (var b = a; b < a + 10; b++) {
