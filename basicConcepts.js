@@ -185,7 +185,7 @@ do{
 //For Loop
 
 for (var a = 1; a <= 5; a++) {      //Ex 1
-    console.log("Basic Example of Do While Loop " + a);
+    console.log("Basic Example of For Loop " + a);
 }
 
 for (var a = 1; a <= 10; a++){      //Table of 2 
