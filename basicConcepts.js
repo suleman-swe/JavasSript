@@ -10,6 +10,15 @@ if(true){
     alert(name);
 }
 
+//Template String (Concatenation)
+
+var fName = "John";
+var lName = "Elbert";
+
+var fullName = `${fName} ${lName}`;
+
+console.log(fullName);
+
 //IF-ELSE
 
 a=21;
