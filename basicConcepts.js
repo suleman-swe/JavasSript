@@ -1,3 +1,17 @@
+//Creating variable using Const
+
+const a = "Const Variable";     //cann't reassign new value to const variable 
+alert(a);
+
+//Creating variable using Let
+
+if(true){
+    let name = "Stetson";       //cann't be useful outside the brackets as "var" can use
+    alert(name);
+}
+
+//IF-ELSE
+
 a=21;
 if(a<18)
 {
@@ -5,8 +19,6 @@ if(a<18)
 }else{
     document.write("You's are is not matching. Your are not allowed!");
 }
-
-//IF-ELSE
 
 x = 21;
 if (x <= 18) {
