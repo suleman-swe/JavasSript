@@ -25,3 +25,5 @@ console.log(checkIfEqualTo100(100, 0));
 var checkIfEqualTo100 = (a, b) => a == 100 || b == 100;
 
 console.log(checkIfEqualTo100(2, 100));
+
+
