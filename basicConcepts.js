@@ -257,3 +257,7 @@ for (var a = 1; a <= 100; a = a + 10) {
     }
     document.write("<br>");
 }
+
+//Array (basic way)
+
+var a = [10, 34, "Office", true];
