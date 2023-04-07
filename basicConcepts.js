@@ -261,3 +261,6 @@ for (var a = 1; a <= 100; a = a + 10) {
 //Array (basic way)
 
 var a = [10, 34, "Office", true];
+
+for(var a = 0, ){
+}
